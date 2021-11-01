@@ -2,16 +2,8 @@
 
 namespace App\Controllers;
 
-use Apitte\Core\Annotation\Controller\ControllerPath;
-use Apitte\Core\Annotation\Controller\Method;
-use Apitte\Core\Annotation\Controller\Negotiation;
-use Apitte\Core\Annotation\Controller\Negotiations;
-use Apitte\Core\Annotation\Controller\Path;
 use Apitte\Core\Http\ApiRequest;
 use Apitte\Core\Http\ApiResponse;
-use Apitte\Negotiation\Http\ArrayEntity;
-use Apitte\Core\Annotation\Controller\RequestParameter;
-use Apitte\Core\Annotation\Controller\RequestParameters;
 
 /**
  * @ControllerPath("/test")
