@@ -30,7 +30,7 @@ if (gethostname() == 'DESKTOP-UHM57UB') {
 	define('SERVER', 'devel');
 	define('AUTH_HEADER', 'Authorization');
 } else {
-  define('SERVER', 'production');
+  define('SERVER', 'devel');
   define('AUTH_HEADER', 'Authorization');
 }
 
