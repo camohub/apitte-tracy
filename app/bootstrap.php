@@ -17,7 +17,7 @@ $environments = new Environments(array(
 ));
 
 
-// lurity.com home
+
 $environments->setEnvironment(array(
     Environments::HOSTNAME => 'DESKTOP-UHM57UB'
 ), array(
@@ -26,13 +26,8 @@ $environments->setEnvironment(array(
 ));
 
 
-if (gethostname() == 'DESKTOP-UHM57UB') {
-	define('SERVER', 'devel');
-	define('AUTH_HEADER', 'Authorization');
-} else {
-  define('SERVER', 'devel');
-  define('AUTH_HEADER', 'Authorization');
-}
+define('SERVER', 'devel');
+define('AUTH_HEADER', 'Authorization');
 
 \Tracy\Debugger::$showBar = FALSE;
 

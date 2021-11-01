@@ -26,7 +26,7 @@ final class TestController extends BaseV1Controller
   public function index(ApiRequest $request, ApiResponse $response): ApiResponse
   {
 
-    return $this->sendResponse($response, ['test' => 'bbbbbbbbbbbbbbbbbbbbbbb']);
+    return $this->xxxsendResponse($response, ['test' => 'bbbbbbbbbbbbbbbbbbbbbbb']);
   }
 
 }
