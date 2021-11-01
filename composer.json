@@ -12,6 +12,10 @@
     "GPL-3.0"
   ],
   "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/xrainman/environments"
+    }
   ],
   "require": {
     "pavoleichler/database": "dev-master",

@@ -36,4 +36,3 @@ package-lock.json
 
 #user configs
 app/config/local/@andrej.neon
-/www/
