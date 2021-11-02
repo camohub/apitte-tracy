@@ -15,17 +15,22 @@
     {
       "type": "vcs",
       "url": "https://github.com/xrainman/environments"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/xrainman/database"
     }
   ],
   "require": {
     "pavoleichler/database": "dev-master",
     "pavoleichler/environments": "dev-master",
     "php": ">= 7.2.0",
-    "contributte/bootstrap": "^0.4.0",
-    "contributte/http": "^0.3.0",
-    "contributte/tracy": "^0.4.0",
-    "contributte/di": "^0.4.0",
-    "apitte/fullstack": "^0.6.0",
+    "contributte/bootstrap": "^0.5.0",
+    "contributte/http": "^0.4.0",
+    "contributte/tracy": "^0.5.0",
+    "contributte/di": "^0.5.0",
+    "contributte/dev": "^0.2.0",
+    "apitte/fullstack": "^0.7.0",
 
     "nette/robot-loader": "~3.3.0",
     "adhocore/jwt": "^1.1",
@@ -36,7 +41,7 @@
     "braintree/braintree_php": "^6.4",
     "cloudinary/cloudinary_php": "^2.1",
     "php-ffmpeg/php-ffmpeg": "^0.17.0",
-    "nette/utils": "3.0.3",
+    "nette/utils": "^3.0",
     "robmorgan/phinx": "^0.12.9"
   },
   "minimum-stability": "dev",
